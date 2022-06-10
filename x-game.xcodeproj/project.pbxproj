@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		13AE1D452852A4CE001F76C8 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13AE1D442852A4CE001F76C8 /* Metal.framework */; };
+		13AE1D472852A648001F76C8 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 13AE1D462852A648001F76C8 /* Shaders.metal */; };
 		13B9033E2852A0CA0072BE43 /* x_gameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B9033D2852A0CA0072BE43 /* x_gameApp.swift */; };
 		13B903402852A0CA0072BE43 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B9033F2852A0CA0072BE43 /* ContentView.swift */; };
 		13B903422852A0CB0072BE43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B903412852A0CB0072BE43 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		13AE1D442852A4CE001F76C8 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		13AE1D462852A648001F76C8 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
 		13B9033A2852A0CA0072BE43 /* x-game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "x-game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B9033D2852A0CA0072BE43 /* x_gameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = x_gameApp.swift; sourceTree = "<group>"; };
 		13B9033F2852A0CA0072BE43 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				13B903412852A0CB0072BE43 /* Assets.xcassets */,
 				13B903462852A0CB0072BE43 /* x_game.entitlements */,
 				13B903432852A0CB0072BE43 /* Preview Content */,
+				13AE1D462852A648001F76C8 /* Shaders.metal */,
 			);
 			path = "x-game";
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13AE1D472852A648001F76C8 /* Shaders.metal in Sources */,
 				13B903402852A0CA0072BE43 /* ContentView.swift in Sources */,
 				13B9034D2852A2380072BE43 /* Renderer.swift in Sources */,
 				13B9033E2852A0CA0072BE43 /* x_gameApp.swift in Sources */,
